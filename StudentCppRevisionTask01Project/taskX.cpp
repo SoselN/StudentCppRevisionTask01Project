@@ -24,5 +24,11 @@
 */
 
 bool taskX(int width, int length, int side) {
-	return false;
+	
+
+	do{
+		cin >> width >> length >> side;
+	} while (width > 0 && length > 0 && side > 0);
+	
+	return side >= length && side >= width;
 }
