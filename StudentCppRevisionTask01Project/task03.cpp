@@ -23,5 +23,5 @@
 */
 
 bool task03(int a, int b, int c) {
-	return false;
+	return ;
 }
